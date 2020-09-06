@@ -71,4 +71,44 @@
     background-color: #666;
     color: white;
   }
-  
+.iblock{
+  display: inline-block;
+  max-width: 250px;
+  margin:1em;
+}
+.cards {
+  display: flex;
+}
+.sideNav{
+  min-width: 210px;
+}
+.iblock span {
+  float: right;
+}
+.cart{
+  display: block;
+  float: right;
+}
+p.category {
+  color: darkgrey;
+  font-size: 1em;
+}
+.iblock p {
+  display: inline-block;
+  margin: 0px;
+}
+@media screen and (max-width: 992px){
+  .cards{
+    display: block;
+  }
+}
+li span{
+    margin: 1em;
+}
+li{
+   margin: 2em;
+   border-bottom: 1px solid #00000061;
+   list-style: none;
+   cursor: pointer;
+
+}
